@@ -1,0 +1,270 @@
+/* MAIN CONTAINER */
+.about-container {
+  width: 100%;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ============================= */
+/*        TOP HEADING SECTION    */
+/* ============================= */
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background: rgb(63, 162, 201);
+  color: white;
+  width: 70%;
+  height: 150px;
+  margin-left: 220px;
+  border-radius: 10px;
+}
+
+.about-heading h1 {
+  font-size: 32px;
+  font-weight: 700;
+  /* color: #222; */
+}
+
+.about-heading p {
+  font-size: 18px;
+  margin-top: 8px;
+  color: #555;
+}
+
+/* ============================= */
+/*      SIDE BY SIDE CONTENT     */
+/* ============================= */
+
+.about-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* LEFT TEXT */
+.about-left {
+  flex: 1;
+}
+
+.about-left p {
+  line-height: 1.7;
+  font-size: 18px;
+  color: #333;
+  text-align: justify;
+}
+
+/* RIGHT IMAGE */
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-right img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================= */
+/*      RESPONSIVE DESIGN        */
+/* ============================= */
+
+@media (max-width: 900px) {
+  .about-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-left p {
+    text-align: center;
+  }
+
+  .about-right img {
+    max-width: 90%;
+  }
+}
+
+
+/* WHAT WE OFFER SECTION */
+.offer-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+.offer-section h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Blue center divider dots */
+.divider {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+
+.divider span {
+  width: 10px;
+  height: 5px;
+  background: #1b4fe0;
+  border-radius: 5px;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  width: 330px;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-6px);
+}
+
+.offer-card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.offer-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.offer-card p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .offer-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offer-card {
+    width: 90%;
+  }
+}
+
+
+/* ========== WHY CHOOSE US ========== */
+
+.choose-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.choose-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.choose-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-top: 6px;
+}
+
+.choose-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.choose-card {
+  width: 300px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: .3s ease;
+}
+
+.choose-card:hover {
+  transform: translateY(-5px);
+}
+
+.choose-card img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.choose-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.choose-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* ========== VISION ========== */
+
+.vision-section {
+  padding: 40px 70px;
+}
+
+.vision-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #083c7b;
+  margin-bottom: 20px;
+}
+
+.vision-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 1300px;
+}
+
+
+/* ========== MISSION ========== */
+
+.mission-section {
+  padding: 40px 70px;
+}
+
+.mission-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #083c7b;
+  margin-bottom: 20px;
+}
+
+.mission-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 1300px;
+}
+

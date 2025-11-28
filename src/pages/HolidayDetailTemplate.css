@@ -1,0 +1,121 @@
+/* ============================
+   BANNER SECTION
+============================ */
+.holiday-banner {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.holiday-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.holiday-banner h1 {
+  position: relative;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  z-index: 2;
+  text-align: center;
+}
+
+/* ============================
+   SUB TITLE (Famous Jungles In India)
+============================ */
+.holiday-subtitle {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+}
+
+.holiday-subtitle span {
+  color: #f7a600; /* Orange accent */
+}
+
+/* ============================
+   CARDS GRID
+============================ */
+.holiday-cards {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 0 20px;
+}
+
+/* ============================
+   CARD
+============================ */
+.holiday-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.holiday-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.holiday-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+/* Card title */
+.holiday-card h3 {
+  padding: 12px 16px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Card description text */
+.holiday-card p {
+  padding: 5px 16px 16px;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.4rem;
+}
+
+/* ============================
+   RESPONSIVE
+============================ */
+@media (max-width: 992px) {
+  .holiday-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .holiday-banner h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .holiday-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .holiday-banner {
+    height: 250px;
+  }
+
+  .holiday-banner h1 {
+    font-size: 28px;
+  }
+}

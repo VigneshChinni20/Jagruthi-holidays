@@ -1,0 +1,484 @@
+.holiday-section {
+  padding: 60px 80px;
+  background: #f5f7fa;
+}
+
+.holiday-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background: #007bff;
+  margin: 0 auto 40px auto;
+  border-radius: 20px;
+}
+
+.holiday-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.holiday-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: 0.3s;
+  margin-bottom: 40px;
+}
+
+.holiday-card:hover {
+  transform: translateY(-5px);
+}
+
+.holiday-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.holiday-content {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.holiday-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.holiday-content p {
+  font-size: 14px;
+  margin: 12px 0;
+  color: #4a4a4a;
+}
+
+.read-more {
+  background: #004c97;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background: #003670;
+}
+
+/* --- WRAPPER --- */
+.city-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 40px;
+}
+
+/* --- EACH COLUMN SECTION --- */
+.city-column {
+  width: 48%;
+}
+
+/* --- TITLES --- */
+.city-title {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.highlight-blue {
+  color: #3b48ff;
+}
+
+/* --- METRO CITIES LIST (2 COLUMNS) --- */
+.city-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 70px;
+  row-gap: 8px;
+}
+
+/* --- INTERNATIONAL DESTINATIONS LIST (4 COLUMNS) --- */
+.international-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 50px;
+  row-gap: 8px;
+}
+
+/* --- ICON + TEXT --- */
+.city-list li,
+.international-list li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* --- RED MARKER ICON --- */
+.location-icon {
+  color: #ff3b30;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+
+
+.city-title {
+  font-size: 28px;
+  color: #f7931e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.highlight-blue {
+  color: #4a4aff;
+  font-style: italic;
+}
+
+.city-list {
+  list-style: none;
+  padding: 0;
+  columns: 2;
+  column-gap: 40px;
+}
+
+.city-list li {
+  font-size: 20px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  color: red;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.international-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  columns: 4;        
+  column-gap: 40px;
+}
+
+.international-list li {
+  font-size: 20px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  margin-right: 8px;
+  color: #f72a2a; /* blue */
+}
+
+/* ====================== REVIEWS SECTION ====================== */
+
+/* ----------------- REVIEWS SECTION ----------------- */
+
+.reviews-section {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.review-slider {
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* Each review card */
+.review-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+  height: 330px;   /* FIXED HEIGHT for alignment */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Quote icon */
+.quote-icon {
+  font-size: 30px;
+  color: #88a8ff;
+}
+
+/* Review text */
+.review-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 90%;
+}
+
+/* Stars */
+.stars {
+  margin: 10px 0;
+}
+
+.star-icon {
+  color: #ffd700;
+  font-size: 16px;
+}
+
+/* Reviewer image */
+.reviewer-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Reviewer name */
+.review-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* Membership ID */
+.review-id {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+
+/* ---- Swiper Pagination ---- */
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #9bb8e5;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #003478;
+  opacity: 1;
+}
+
+
+
+
+
+.contact-wrapper {
+  padding: 60px 40px;
+  background: #f2f7fb;
+  background-image: url("https://img.icons8.com/?size=512&id=22537&format=png"); /* optional bg */
+  background-size: 200px;
+  background-repeat: repeat;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #1a2b4c;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.contact-underline {
+  width: 70px;
+  height: 4px;
+  background: #004aad;
+  margin: 10px auto 40px;
+  border-radius: 10px;
+  /* margin-bottom: 50px; */
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1250px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  flex: 1;
+  color: #1a2b4c;
+}
+
+.contact-left p {
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  /* font-weight: semi-bold ; */
+}
+
+.contact-left h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  /* margin-left: 80px; */
+
+}
+
+.contact-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  color: #004c97;
+  text-decoration: underline;
+  font-weight: bold ;
+ 
+
+}
+
+/* RIGHT FORM */
+.contact-right {
+  flex: 1.2;
+  background: transparent;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  /* margin-top: 10px; */
+  margin-bottom: 6px;
+  color: #1a2b4c;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #d8dbe2;
+  border-radius: 6px;
+  background: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+textarea {
+  resize: none;
+}
+
+.send-btn {
+  background: hsl(216, 37%, 40%);
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 460px;
+}
+
+.send-btn:hover {
+  background: #002a75;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+.info-wrapper {
+  padding: 50px 0;
+}
+
+.info-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  background: #fff;
+  width: 280px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.info-card:hover {
+  border: #003478 2px solid;
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
+
+.info-icon {
+  width: 80px;
+  height: 80px;
+  background: hsl(216, 46%, 60%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+
+
+.info-icon :hover {
+  background: #ffffff;
+  width: 100px;
+  height: auto;
+}
+
+.info-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.address {
+  line-height: 1.4;
+}
