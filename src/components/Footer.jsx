@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import Logo from "../assets/Logo.png"
 import "./Footer.css";
 
@@ -17,24 +18,26 @@ const Footer = () => {
         </div>
 
         {/* Useful Links */}
+        {/* Useful Links */}
         <div className="footer-column">
           <h3>Useful Links</h3>
           <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>Inquiry</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About us</Link></li>
+            <li><Link to="/contact">Contact us</Link></li>
+            <li><Link to="/inquiry">Inquiry</Link></li>
           </ul>
         </div>
+
 
         {/* Holiday Destinations */}
         <div className="footer-column">
           <h3>Holiday Destinations</h3>
           <ul>
-            <li>Famous Beaches</li>
-            <li>Famous Deserts</li>
-            <li>Famous Hill Stations</li>
-            <li>Famous Religious Places</li>
+            <li><Link to="/beaches-india">Famous Beaches</Link></li>
+            <li><Link to="/india-deserts">Famous Deserts</Link></li>
+            <li><Link to="/hill-india">Famous Hill Stations</Link></li>
+            <li><Link to="/religious-india">Famous Religious Places</Link></li>
           </ul>
         </div>
 
