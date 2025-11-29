@@ -30,3 +30,51 @@
   color: #333;
 }
 
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .travel-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .travel-img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .travel-text {
+    max-width: 90%;
+    text-align: center;
+  }
+}
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .travel-container {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .travel-img {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .travel-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+/* Small Mobile (max-width: 400px) */
+@media (max-width: 400px) {
+  .travel-img {
+    width: 100%;
+  }
+
+  .travel-text p {
+    font-size: 0.95rem;
+  }
+}

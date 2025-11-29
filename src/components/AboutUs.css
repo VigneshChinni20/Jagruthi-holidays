@@ -77,14 +77,31 @@
 /*      RESPONSIVE DESIGN        */
 /* ============================= */
 
-@media (max-width: 900px) {
+/* 🔵 Tablet (≤992px) */
+@media (max-width: 992px) {
+
+  .about-heading {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .about-heading h1 {
+    font-size: 26px;
+  }
+
+  .about-heading p {
+    font-size: 16px;
+  }
+
   .about-content-wrapper {
     flex-direction: column;
     text-align: center;
+    gap: 30px;
   }
 
   .about-left p {
     text-align: center;
+    font-size: 16px;
   }
 
   .about-right img {
@@ -92,6 +109,34 @@
   }
 }
 
+@media (max-width: 600px) {
+
+  .about-heading {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .about-heading h1 {
+    font-size: 22px;
+  }
+
+  .about-heading p {
+    font-size: 14px;
+  }
+
+  .about-content-wrapper {
+    width: 95%;
+  }
+
+  .about-left p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .about-right img {
+    max-width: 100%;
+  }
+}
 
 /* WHAT WE OFFER SECTION */
 .offer-section {
@@ -160,7 +205,8 @@
   line-height: 1.6;
 }
 
-/* RESPONSIVE */
+
+/* responsive offer section */
 @media (max-width: 900px) {
   .offer-cards {
     flex-direction: column;
@@ -171,6 +217,22 @@
     width: 90%;
   }
 }
+
+@media (max-width: 600px) {
+  .offer-card {
+    width: 100%;
+    padding: 25px 15px;
+  }
+
+  .offer-card h3 {
+    font-size: 18px;
+  }
+
+  .offer-card p {
+    font-size: 14px;
+  }
+}
+
 
 
 /* ========== WHY CHOOSE US ========== */
@@ -228,6 +290,32 @@
   color: #555;
 }
 
+/* responsive choose section */
+@media (max-width: 900px) {
+  .choose-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choose-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .choose-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .choose-card h3 {
+    font-size: 16px;
+  }
+
+  .choose-card p {
+    font-size: 13px;
+  }
+}
 
 /* ========== VISION ========== */
 
@@ -248,6 +336,32 @@
   max-width: 1300px;
 }
 
+@media (max-width: 900px) {
+  .vision-section {
+    padding: 30px;
+  }
+
+  .vision-section p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .vision-section {
+    padding: 20px;
+  }
+
+  .vision-section h2 {
+    font-size: 24px;
+  }
+
+  .vision-section p {
+    font-size: 14px;
+  }
+}
+
+
+
 
 /* ========== MISSION ========== */
 
@@ -266,5 +380,29 @@
   font-size: 16px;
   line-height: 1.7;
   max-width: 1300px;
+}
+
+@media (max-width: 900px) {
+  .mission-section {
+    padding: 30px;
+  }
+
+  .mission-section p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mission-section {
+    padding: 20px;
+  }
+
+  .mission-section h2 {
+    font-size: 24px;
+  }
+
+  .mission-section p {
+    font-size: 14px;
+  }
 }
 
