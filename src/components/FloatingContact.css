@@ -54,3 +54,47 @@
   opacity: 1;
   transform: scale(1);
 }
+
+/* =======================
+   RESPONSIVE – MOBILE
+======================= */
+
+@media (max-width: 768px) {
+
+  .floating-wrapper {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .floating-main {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+  }
+
+  .floating-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .whatsapp {
+    bottom: 65px;
+  }
+
+  .phone {
+    bottom: 120px;
+  }
+}
+
+/* =======================
+   TOUCH DEVICES FIX
+======================= */
+
+/* Always show icons on touch devices */
+@media (hover: none) {
+  .floating-icon {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
