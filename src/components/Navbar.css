@@ -8,13 +8,14 @@
   padding: 0 40px;
   background: white;
   /* box-shadow: 0 1px 2px rgba(0,0,0,0.1); */
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 /* Logo */
 .nav-logo img {
   width: 280px;
-  height: 120px;
+  height: 100px;
   object-fit: contain;
   margin-bottom: 20px;
   margin-top: 35px;
