@@ -62,30 +62,33 @@
 @media (max-width: 768px) {
 
   .floating-wrapper {
-    right: 15px;
-    bottom: 15px;
+    right: 20px;
+    bottom: 20px;
   }
 
+  /* Main button */
   .floating-main {
-    width: 55px;
+    width: 65px;      /* ⬆️ increased */
+    height: 65px;
+    font-size: 28px;  /* ⬆️ increased */
+  }
+
+  /* WhatsApp & Phone */
+  .floating-icon {
+    width: 55px;      /* ⬆️ increased */
     height: 55px;
     font-size: 24px;
   }
 
-  .floating-icon {
-    width: 45px;
-    height: 45px;
-    font-size: 20px;
-  }
-
   .whatsapp {
-    bottom: 65px;
+    bottom: 80px;
   }
 
   .phone {
-    bottom: 120px;
+    bottom: 145px;
   }
 }
+
 
 /* =======================
    TOUCH DEVICES FIX
