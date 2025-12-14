@@ -1,0 +1,56 @@
+.floating-wrapper {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 9999;
+}
+
+/* Main Chat Button */
+.floating-main {
+  width: 60px;
+  height: 60px;
+  background: #4a5bdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Hidden icons */
+.floating-icon {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.3s ease;
+}
+
+/* WhatsApp */
+.whatsapp {
+  background: #25d366;
+  bottom: 70px;
+}
+
+/* Phone */
+.phone {
+  background: #007bff;
+  bottom: 130px;
+}
+
+/* Hover Effect */
+.floating-wrapper:hover .floating-icon {
+  opacity: 1;
+  transform: scale(1);
+}

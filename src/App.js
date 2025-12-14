@@ -8,6 +8,7 @@ import HolidayDestinations from "./components/HolidayDestination";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 import ScrollToTop from "./components/ScrollToTop";
+import FloatingContact from "./components/FloatingContact";
 
 import LatestResort from "./pages/LatestResort";
 import IndianJungles from "./pages/IndianJungles";
@@ -34,6 +35,7 @@ function App() {
               <HeroSection />
               <TravelSection />
               <HolidayDestinations />
+              <FloatingContact />
             </>
           }
         />
