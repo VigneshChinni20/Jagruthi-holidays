@@ -31,6 +31,7 @@
   overflow: hidden;
   transition: 0.3s;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .holiday-card:hover {
@@ -564,6 +565,7 @@ textarea {
 
   .holiday-card {
     margin-bottom: 20px;
+    width: 100%;
   }
 
   /* City section: 2 columns → 1 */
