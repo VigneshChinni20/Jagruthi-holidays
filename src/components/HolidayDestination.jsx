@@ -349,7 +349,7 @@ const HolidayDestinations = () => {
         <FaPhoneAlt size={32} />
       </div>
       <h3>Call Us</h3>
-      <p>+918125366899</p>
+      <p>+91 9948762577</p>
     </motion.div>
 
     {/* MAIL */}
@@ -364,7 +364,7 @@ const HolidayDestinations = () => {
         <FaEnvelopeOpenText size={32} />
       </div>
       <h3>Mail Us</h3>
-      <p>support@debreeze.in</p>
+      <p className="mail">jagruthipropertydevelopers1@gmail.com</p>
     </motion.div>
 
     {/* LOCATION */}
@@ -380,8 +380,11 @@ const HolidayDestinations = () => {
       </div>
       <h3>Visit Us</h3>
       <p className="address">
-        74-12-6, 2nd Floor CHVR PLAZA Ramayalam Junction, AVA Road <br />
-        Rajahmundry Andhra Pradesh.
+       Flat No-501, Fifth floor, Waltair Heights, Balaji Nagar, Visakhapatnam
+      </p>
+      <p>-----------------------</p>
+      <p>
+        D.no 6-3-23, Dantuvari street, SuryaraoPeta, near Nookalamma Temple, Kakinada
       </p>
     </motion.div>
 

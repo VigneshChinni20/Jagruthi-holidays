@@ -466,6 +466,10 @@ textarea {
   margin: 0 auto 20px;
 }
 
+/* .mail{
+  margin-left: -20px;
+  width: 80%;
+} */
 
 .info-icon :hover {
   background: #ffffff;

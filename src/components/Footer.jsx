@@ -46,10 +46,10 @@ const Footer = () => {
           <h3>Contact us</h3>
 
           <p className="footer-contact">
-            <FaPhoneAlt className="footer-icon" /> +918125366899
+            <FaPhoneAlt className="footer-icon" /> +91 9948762577
           </p>
           <p className="footer-contact">
-            <FaEnvelope className="footer-icon" /> support@debreeze.in
+            <FaEnvelope className="footer-icon" /> jagruthipropertydevelopers1@gmail.com
           </p>
 
           <div className="footer-socials">

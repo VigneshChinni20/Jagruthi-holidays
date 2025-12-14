@@ -83,9 +83,6 @@ const AboutUs = () => {
 
         </div>
       </div>
-{/* ========================= */}
-{/*     WHY CHOOSE US        */}
-{/* ========================= */}
 
 <div className="choose-section">
   <h2>Why Choose Us?</h2>
@@ -134,10 +131,6 @@ const AboutUs = () => {
   </div>
 </div>
 
-{/* ========================= */}
-{/*         OUR VISION        */}
-{/* ========================= */}
-
 <div className="vision-section">
   <h2>Our Vision</h2>
 
@@ -150,10 +143,6 @@ const AboutUs = () => {
     international audiences.
   </p>
 </div>
-
-{/* ========================= */}
-{/*        OUR MISSION        */}
-{/* ========================= */}
 
 <div className="mission-section">
   <h2>Our Mission</h2>
