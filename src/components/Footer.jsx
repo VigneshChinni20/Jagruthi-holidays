@@ -61,7 +61,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        ©2024. Breeze Holidays. All Rights Reserved.
+        ©2025. Jagruthi Property Developers. All Rights Reserved.
       </div>
     </footer>
   );

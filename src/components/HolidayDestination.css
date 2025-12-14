@@ -442,7 +442,7 @@ textarea {
 
 .info-card {
   background: #fff;
-  width: 280px;
+  width: 370px;
   padding: 30px 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
@@ -466,10 +466,6 @@ textarea {
   margin: 0 auto 20px;
 }
 
-/* .mail{
-  margin-left: -20px;
-  width: 80%;
-} */
 
 .info-icon :hover {
   background: #ffffff;
