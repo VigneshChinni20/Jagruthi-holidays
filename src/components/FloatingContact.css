@@ -1,11 +1,11 @@
 .floating-wrapper {
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  right: 20px;
+  bottom: 20px;
   z-index: 9999;
 }
 
-/* Main Chat Button */
+/* Main Button */
 .floating-main {
   width: 60px;
   height: 60px;
@@ -35,6 +35,14 @@
   opacity: 0;
   transform: scale(0);
   transition: 0.3s ease;
+  pointer-events: none;
+}
+
+/* Show when clicked */
+.floating-icon.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
 }
 
 /* WhatsApp */
@@ -49,55 +57,16 @@
   bottom: 130px;
 }
 
-/* Hover Effect */
-.floating-wrapper:hover .floating-icon {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* =======================
-   RESPONSIVE – MOBILE
-======================= */
-
 @media (max-width: 768px) {
-
-  .floating-wrapper {
-    right: 20px;
-    bottom: 20px;
-  }
-
-  /* Main button */
   .floating-main {
-    width: 65px;      /* ⬆️ increased */
-    height: 65px;
-    font-size: 28px;  /* ⬆️ increased */
-  }
-
-  /* WhatsApp & Phone */
-  .floating-icon {
-    width: 55px;      /* ⬆️ increased */
+    width: 55px;
     height: 55px;
     font-size: 24px;
   }
 
-  .whatsapp {
-    bottom: 80px;
-  }
-
-  .phone {
-    bottom: 145px;
-  }
-}
-
-
-/* =======================
-   TOUCH DEVICES FIX
-======================= */
-
-/* Always show icons on touch devices */
-@media (hover: none) {
   .floating-icon {
-    opacity: 1;
-    transform: scale(1);
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
   }
 }
