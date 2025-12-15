@@ -568,23 +568,31 @@ textarea {
     width: 100%;
   }
 
-  /* City section: 2 columns → 1 */
-  .city-list {
-    columns: 1;
+  .city-list,
+  .international-list {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 12px;
+    padding: 0;
+    text-align: center;
   }
 
-  .international-list {
-    columns: 2;
+  .city-list li,
+  .international-list li {
+    list-style: none;
   }
 
   /* Info cards */
   .info-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .info-card {
     width: 90%;
+    max-width: 350px;
+    text-align: center;
   }
 
   .contact-wrapper {
@@ -597,9 +605,18 @@ textarea {
   }
 }
 
+@media (max-width: 900px) {
+  .international-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* ---------- MOBILE PORTRAIT (max-width: 480px) ---------- */
 @media (max-width: 480px) {
   /* Holiday section */
+  section {
+    overflow-x: hidden;
+  }
   .holiday-title {
     font-size: 22px;
   }
