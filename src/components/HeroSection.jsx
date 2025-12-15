@@ -43,7 +43,7 @@ export default function HeroSection() {
         <h1 className="hero-title">Jagruthi</h1>
         <h2 className="hero-subtitle">Will Complete Your Life</h2>
         <p className="hero-desc">
-          Breeze being the most known name in the entertainment industry,
+          Jagruthi Property Developers being the most known name in the entertainment industry,
           offers its 500+ properties across India and abroad.
         </p>
       </motion.div>
